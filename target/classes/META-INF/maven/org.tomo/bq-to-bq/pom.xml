@@ -22,7 +22,7 @@
   <groupId>org.tomo</groupId>
   <artifactId>bq-to-bq</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
+
   <packaging>jar</packaging>
 
   <properties>
@@ -258,12 +258,27 @@
       <version>${mockito.version}</version>
       <scope>test</scope>
     </dependency>
-    
+
     <dependency>
 	  <groupId>com.google.googlejavaformat</groupId>
 	  <artifactId>google-java-format</artifactId>
 	  <version>1.7</version>
 	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
+	<dependency>
+	    <groupId>com.fasterxml.jackson.core</groupId>
+	    <artifactId>jackson-core</artifactId>
+	    <version>2.10.1</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+	<dependency>
+	    <groupId>org.projectlombok</groupId>
+	    <artifactId>lombok</artifactId>
+	    <version>1.18.10</version>
+	    <scope>provided</scope>
+	</dependency>
+
   </dependencies>
 </project>
-  
